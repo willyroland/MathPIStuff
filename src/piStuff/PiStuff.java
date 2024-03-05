@@ -23,7 +23,6 @@ public class PiStuff {
             piDigits.add(new Digit(digit, i + 1));
         }
 
-
         for (Digit digitOrder : piDigits)
         {
             System.out.println("Digit: " + digitOrder.digit + ", Order: " + digitOrder.order);
