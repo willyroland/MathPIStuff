@@ -3,11 +3,13 @@ package piStuff;
 import java.math.*;
 import java.util.ArrayList;
 
-public class PiStuff {
+public class PiStuff
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
     	
-        BigDecimal pi = BigDecimal.valueOf(Math.PI);
+        Double pi = NewMath.NewPi();
         
         System.out.println(pi);
 
@@ -44,4 +46,14 @@ public class PiStuff {
             this.order = order;
         }
     }
+}
+
+class NewMath
+{
+	static double NewPi()
+	{
+		double pi1 = 22.0/7.0;
+		return pi1;
+		//return new BigDecimal(pi1);
+	}
 }
