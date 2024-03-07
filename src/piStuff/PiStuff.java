@@ -52,8 +52,19 @@ class NewMath
 {
 	static double NewPi()
 	{
-		double pi1 = 22.0/7.0;
-		return pi1;
+		//double pi1 = 22.0/7.0;
+		//return pi1;
 		//return new BigDecimal(pi1);
+	        double pi = 3.0;
+	        int n = 2;
+	        int sign = 1;
+
+	        for (int i = 0; i < 10; i++)
+	        {
+	            sign *= -1;
+	            pi = pi  + (sign*(4.0/((n)*(n+1)*(n+2))));
+	            n += 2;
+	        }
+	        return pi;
+	    }
 	}
-}
