@@ -52,10 +52,11 @@ class NewMath
 {
 	static double NewPi()
 	{
-		//fake line
+
 		//double pi1 = 22.0/7.0;
 		//return pi1;
 		//return new BigDecimal(pi1);
+			String myVar = "asdf";
 	        double pi = 3.0;
 	        int n = 2;
 	        int sign = 1;
