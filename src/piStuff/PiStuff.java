@@ -61,8 +61,8 @@ class NewMath
 
 	        for (int i = 0; i < 10; i++)
 	        {
-	            sign *= -1;
 	            pi = pi  + (sign*(4.0/((n)*(n+1)*(n+2))));
+	            sign *= -1;
 	            n += 2;
 	        }
 	        return pi;
